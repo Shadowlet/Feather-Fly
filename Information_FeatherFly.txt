@@ -1,0 +1,73 @@
+	
+
+				FEATHER FLY
+
+GAME MANAGER:
+
+* Menu Variable
+* Game Variable 
+* Game Over Variable
+
+* Menu Function
+* Start Function
+* Game Over Menu Function
+
+
+BLOCK MANAGER:
+
+* LoadBlock Function
+(Loads block for next section)
+Checks if player distance is equal to next point 
+(SectionDistance * y  where y increases for every section the player passes.) 
+(x starts at 1)
+
+* RemoveBlock Function
+
+
+WAYPOINTS:
+
+Create waypoint shape and colour
+
+
+PLAYER:
+
+* Game Manager Variable
+* CameraObject Variable
+* Velocity X Variable
+* Velocity Y Variable
+* Flying Variable
+* Max Speed Variable
+* Fan On/Off Bool
+* Left Fan Variable
+* Right Fan Variable
+* Bottom Fan Variable
+
+
+* Feather Collision Function (In Update)
+* GameOver / Death Function
+(Sets Active bool to false)
+
+* CheckKeyDown Function
+(Returns value depending on key pressed)
+
+* Fan Switch Statement
+(Runs one of three functions which will move the feather
+depending on which value CheckKeyDown returned)
+
+
+* fanLeft Function
+(Add force and blow feather to the right)
+
+* fanRight Function
+(Add force and blow feather to the left)
+
+* fanDown Function
+(Add force and blow feather up)
+
+
+
+
+
+
+
+
