@@ -1,0 +1,2 @@
+C:\_Projects\GameDev\Unity\Thing\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\_Projects\GameDev\Unity\Thing\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
