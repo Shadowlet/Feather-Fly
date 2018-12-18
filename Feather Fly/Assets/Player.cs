@@ -17,7 +17,9 @@ public class Player : MonoBehaviour {
     private float maxSpeedLeft = -8;
     bool fanOn = false;
     bool featherFlying;
-    
+        
+
+
 
 
 
@@ -28,7 +30,10 @@ public class Player : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        
+
+        feather.AddForce(Vector3.right * 100);
+
+
         // Check key presses for fans every frame
         if (Input.GetKey(KeyCode.A))
         {
@@ -72,6 +77,7 @@ public class Player : MonoBehaviour {
 
 
     }
+
 
 
     private void fanLeft()

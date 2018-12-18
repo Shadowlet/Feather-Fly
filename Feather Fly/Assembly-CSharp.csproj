@@ -55,7 +55,10 @@
   <ItemGroup>
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\SawCannon.cs" />
+     <Compile Include="Assets\Vaccuum.cs" />
      <Compile Include="Assets\Waypoint.cs" />
+     <Compile Include="Assets\WindArea.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/_Projects/GameDev/Unity/Feather Fly/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
