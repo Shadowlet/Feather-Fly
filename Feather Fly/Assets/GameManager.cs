@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     public GameObject game;
     public GameObject deathScreen;
 
+
 	// Use this for initialization
 	void Start () {
         //menu.SetActive = true;
@@ -17,7 +18,7 @@ public class GameManager : MonoBehaviour {
 	
     public void StartGame()
     {
-
+        //Instantiate
     }
 
     public void PauseMenu()

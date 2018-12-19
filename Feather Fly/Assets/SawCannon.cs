@@ -24,24 +24,12 @@ public class SawCannon : MonoBehaviour {
         //Time.deltaTime = 300;
     }
 
-    private void OnCollisionEnter(Collision collide)
+    private void OnCollisionExit(Collision sawCollide)
     {
-        // Feather
-        if (collide.gameObject.tag == "feather")
+        // When colliding with blocks, destroy saws
+        if (sawCollide.gameObject.tag == "saw")
         {
-            // end game
-        }
-
-        // Saw
-        if (collide.gameObject.tag == "saw")
-        {
-            Destroy(collide.gameObject);
-        }
-
-        // Floating Stuff
-        if (collide.gameObject.tag == "stuff")
-        {
-            // move other way
+            Destroy(sawCollide.gameObject);
         }
     }
 
