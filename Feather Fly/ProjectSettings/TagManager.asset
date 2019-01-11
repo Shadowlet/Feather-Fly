@@ -7,6 +7,9 @@ TagManager:
   - firstBlocks
   - block
   - saw
+  - fanArea
+  - vacuumArea
+  - restartButton
   layers:
   - Default
   - TransparentFX
